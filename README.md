@@ -13,6 +13,7 @@ This repository contains SQL scripts for analyzing healthcare data, focusing on 
   - `facility_key`
   - `time_key`
   - `appointment_duration`
+  
 - **Foreign Keys**:
   - Connect to dimension tables (`dim_doctor`, `dim_patient`, `dim_medical_facility`, `dim_time`) to provide context to appointments.
 
@@ -52,8 +53,6 @@ This repository contains SQL scripts for analyzing healthcare data, focusing on 
 
 ## Queries for Data Analysis
 
-### 1. Retrieve Information about Appointments
-
 ## Key Insights and Queries
 
 We have executed various SQL queries to extract insights from the dataset, including:
@@ -77,11 +76,11 @@ We have executed various SQL queries to extract insights from the dataset, inclu
 17. **Total Appointments for Patients with Blood Type 'O' in the Last Six Months**
 18. **Percentage of Appointments by Specialization for the Current Year**
 
-For detailed SQL queries, please refer to the `queries.sql` file.
+For detailed SQL queries, please refer to the `Healthcare_Queries.sql` file.
 
 ## How to Use
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/healthcare-data-analysis.git
+   git clone https://github.com/anilsolanki2645/healthcare-data-analysis.git
    cd healthcare-data-analysis
